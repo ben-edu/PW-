@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Práctica 2 | Mi primer Página</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+<meta name="description" content="Mi primer página web">
+<meta name="author" content="Ed Flores">
+<meta name="keywords" content="Programación Web">
+<link href="estilo/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link href="estilo/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Index</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="head.html">Práctica 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tarea1.html">Práctica 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="grid.html" tabindex="-1" aria-disabled="true">Práctica 3</a>
+        </li>
+      </ul>
+    <div class="row">
+      <div class="col-xs-4 offset-xs-4">
+        <h1>Calculadora Javascipt</h1>
+        <hr>
+        <h2> Resultado</h2>
+        <br><br>
+
+        <input type="text" id="variable1" name=""> <input type="text" id="variable2" name="" value=""><br>
+        <button type="button" value="suma" id="suma_id"  onclick="document.getElementById('resultado').innerHTML = numero">Suma</button>
+        <button type="button" value="resta" id="resta_id" onclick="document.getElementById('resultado').innerHTML = numero">Resta</button>
+        <button type="button"  onclick="document.getElementById('resultado').innerHTML = numero">Dividir</button>
+        <button type="button"  onclick="document.getElementById('resultado').innerHTML = numero">Multi</button>
+        <p id="resultado"></p>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var numero = 1;
+    var variable1 = variable1;
+
+switch (expression) {
+  case suma:
+    resultado =  variable1 + variable2;
+    return resultado;
+    break;
+  case resta:
+      resultado = variable1 - variable2;
+      return resultado;
+    break;
+  default:
+
+}
+
+  </script>
+</body>
+</html>
